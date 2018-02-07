@@ -7,3 +7,6 @@ A collection of links and references for all things React Native.
 * [NativeBase | Essential cross-platform UI components for React Native](https://nativebase.io/)
 * [react-native-material-ui: Highly customizable material design components for React Native](https://github.com/xotahal/react-native-material-ui)
 
+### UI Components
+
+* [react-native-snap-carousel](https://github.com/archriss/react-native-snap-carousel)
