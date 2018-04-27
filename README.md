@@ -1,6 +1,9 @@
 # react-native-howto
 A collection of links and references for all things React Native. 
 
+### Redux
+
+* [Versent/redux-crud: A set of standard actions and reducers for Redux CRUD Applications](https://github.com/Versent/redux-crud)
 
 ### UI Libraries
 
