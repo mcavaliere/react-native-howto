@@ -1,6 +1,10 @@
 # react-native-howto
 A collection of links and references for all things React Native. 
 
+### Development Tools
+
+* [expo/awesome-expo: Useful resources for creating apps with Exponent](https://github.com/expo/awesome-expo)
+
 ### Redux
 
 * [Versent/redux-crud: A set of standard actions and reducers for Redux CRUD Applications](https://github.com/Versent/redux-crud)
