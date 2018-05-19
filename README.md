@@ -3,7 +3,7 @@ A collection of links and references for all things React Native.
 
 ### Gotchas and Fixes
 * ```DeltaPatcher.js:58 Uncaught (in promise) Error: DeltaPatcher should receive a fresh Delta when being initialized```
-  * Fix: [Monkey patch 2 RN files] (https://github.com/facebook/react-native/issues/18209#issuecomment-371935230)
+  * [Monkey patch: 2 RN files](https://github.com/facebook/react-native/issues/18209#issuecomment-371935230)
 
 ### Development Tools
 
