@@ -29,3 +29,9 @@ A collection of links and references for all things React Native.
 ### UI Components
 
 * [react-native-snap-carousel](https://github.com/archriss/react-native-snap-carousel)
+
+
+### Debugging Notes
+
+* Debugging AsyncStorage in `react-native-debugger`
+  * Type `showAsyncStorageContentInDev()` in console
