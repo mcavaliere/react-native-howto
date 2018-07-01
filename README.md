@@ -6,6 +6,11 @@ A collection of links and references for all things React Native.
   * [Monkey patch: 2 RN files](https://github.com/facebook/react-native/issues/18209#issuecomment-371935230)
 * `AsyncStorage` promises not resolving, or callbacks not firing.
   * [Monkey patch](https://github.com/facebook/react-native/pull/18522/files) and [some background](https://github.com/facebook/react-native/issues/13704).
+* [Elements in KeyboardAvoidingView still covered by keyboard](https://github.com/facebook/react-native/issues/13497)
+  * Usually happens with bottom-most element. 
+  * Fix: use the `keyboardVerticalOffset` attribute. 
+  * `<KeyboardAvoidingView behavior='position' keyboardVerticalOffset={80}>`
+
 
 
 ### Development Tools
