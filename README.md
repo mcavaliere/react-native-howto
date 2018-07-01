@@ -4,6 +4,9 @@ A collection of links and references for all things React Native.
 ### Gotchas and Fixes
 * ```DeltaPatcher.js:58 Uncaught (in promise) Error: DeltaPatcher should receive a fresh Delta when being initialized```
   * [Monkey patch: 2 RN files](https://github.com/facebook/react-native/issues/18209#issuecomment-371935230)
+* `AsyncStorage` promises not resolving, or callbacks not firing.
+  * [Monkey patch](https://github.com/facebook/react-native/pull/18522/files) and [some background](https://github.com/facebook/react-native/issues/13704).
+
 
 ### Development Tools
 
