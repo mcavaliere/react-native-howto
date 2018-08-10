@@ -12,6 +12,7 @@ A collection of links and references for all things React Native.
   * `<KeyboardAvoidingView behavior='position' keyboardVerticalOffset={80}>`
 * KeyboardAvoidingView strangeness on Android
   * in `AndroidManifest.xml`, set `android:windowSoftInputMode="adjustPan"` to the appropriate scene
+    * See: [How to make your React Native app respond gracefully when the keyboard pops up](https://stackoverflow.com/questions/39344140/react-native-how-to-control-what-keyboard-pushes-up#answer-43208431)
   * add this to `app.json`
 ```
 "androidStatusBar": {
