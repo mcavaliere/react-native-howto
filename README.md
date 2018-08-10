@@ -10,6 +10,17 @@ A collection of links and references for all things React Native.
   * Usually happens with bottom-most element. 
   * Fix: use the `keyboardVerticalOffset` attribute. 
   * `<KeyboardAvoidingView behavior='position' keyboardVerticalOffset={80}>`
+* KeyboardAvoidingView strangeness on Android
+  * in `AndroidManifest.xml`, set `android:windowSoftInputMode="adjustPan"` to the appropriate scene
+  * add this to `app.json`
+```
+"androidStatusBar": {
+    "backgroundColor": "#000000"
+}
+```
+
+
+
 
 
 
