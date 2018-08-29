@@ -33,6 +33,8 @@ A collection of links and references for all things React Native.
 ### Development Tools
 
 * [expo/awesome-expo: Useful resources for creating apps with Exponent](https://github.com/expo/awesome-expo)
+* [react-native-debugger](https://github.com/jhen0409/react-native-debugger)
+  * [react-native-debugger-open](https://github.com/jhen0409/react-native-debugger/tree/master/npm-package) to have it open automatically
 
 ### Redux
 
