@@ -57,6 +57,13 @@ A collection of links and references for all things React Native.
 * [react-native-snap-carousel](https://github.com/archriss/react-native-snap-carousel)
 
 
+### Uncommon Stuff
+
+* Sending background (without UI) emails 
+  * Original repo: [react-native-mailcore](https://github.com/agenthunt/react-native-mailcore)
+  * Also [my fork of this library](https://github.com/mcavaliere/react-native-mailcore) (includes "From:" and "To:" headers for deliverability)
+
+
 ### Debugging Notes
 
 * Debugging AsyncStorage in `react-native-debugger`
