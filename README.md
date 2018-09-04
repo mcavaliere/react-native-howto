@@ -46,7 +46,8 @@ A collection of links and references for all things React Native.
 * `INSTALL_FAILED_UPDATE_INCOMPATIBLE`
   * Solution: 
     * On device, uninstall the app and try again. 
-
+* Debugging release build crashes
+  * `adb logcat AndroidRuntime:E *:S` will tail the logs of a connected device.
 
 
 ### Development Tools
