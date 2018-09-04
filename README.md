@@ -25,8 +25,8 @@ A collection of links and references for all things React Native.
 }
 ```
 
-### Android Release Gotchas (when using `./gradlew assembleRelease`)
-* `Could not find or load main class java.se.ee`
+### Android Release Gotchas
+* `Could not find or load main class java.se.ee` (when using `./gradlew assembleRelease`)
   * Remove this line from your `.bash_profile`: 
 `export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'`
   * [GitHub thread](https://github.com/flutter/flutter/issues/16093#issuecomment-390489264)
@@ -34,6 +34,10 @@ A collection of links and references for all things React Native.
 * `Could not get unknown property 'release' for SigningConfig container.`
   * Just put the `signingConfigs` block on top of `buildTypes` block in your `build.gradle`.
   * [GitHub thread](https://github.com/researchgate/gradle-release/issues/187)
+* `Task 'installRelease' not found in root project`
+  * Check for `signingConfig` in `buildTypes` > `release` (in `app/build.gradle`)
+    * [GitHub issue](https://github.com/facebook/react-native/issues/16854#issuecomment-348376236)
+
 
 
 
