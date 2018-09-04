@@ -15,10 +15,6 @@ A collection of links and references for all things React Native.
   * Usually happens with bottom-most element. 
   * Fix: use the `keyboardVerticalOffset` attribute. 
   * `<KeyboardAvoidingView behavior='position' keyboardVerticalOffset={80}>`
-* `Could not find or load main class java.se.ee` when building Android release using `./gradlew assembleRelease`
-  * Remove this line from your `.bash_profile`: 
-`export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'`
-  * [GitHub thread](https://github.com/flutter/flutter/issues/16093#issuecomment-390489264)
 * KeyboardAvoidingView strangeness on Android
   * in `AndroidManifest.xml`, set `android:windowSoftInputMode="adjustPan"` to the appropriate scene
     * See: [How to make your React Native app respond gracefully when the keyboard pops up](https://stackoverflow.com/questions/39344140/react-native-how-to-control-what-keyboard-pushes-up#answer-43208431)
@@ -29,8 +25,15 @@ A collection of links and references for all things React Native.
 }
 ```
 
+### Android Release Gotchas (when using `./gradlew assembleRelease`)
+* `Could not find or load main class java.se.ee`
+  * Remove this line from your `.bash_profile`: 
+`export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'`
+  * [GitHub thread](https://github.com/flutter/flutter/issues/16093#issuecomment-390489264)
 
-
+* `Could not get unknown property 'release' for SigningConfig container.`
+  * Just put the `signingConfigs` block on top of `buildTypes` block in your `build.gradle`.
+  * [GitHub thread](https://github.com/researchgate/gradle-release/issues/187)
 
 
 
