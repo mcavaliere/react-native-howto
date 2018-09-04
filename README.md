@@ -37,6 +37,12 @@ A collection of links and references for all things React Native.
 * `Task 'installRelease' not found in root project`
   * Check for `signingConfig` in `buildTypes` > `release` (in `app/build.gradle`)
     * [GitHub issue](https://github.com/facebook/react-native/issues/16854#issuecomment-348376236)
+* `adb` can't find connected device (Mac OSX)
+  * Solution: 
+    1. Find device VendorID in System Preferences. 
+    1. `echo [VENDOR_ID] >> ~/.android/adb_usb.ini`
+    1. `adb kill-server ; adb devices`
+  * [SO Answer](https://stackoverflow.com/questions/7135999/adb-not-finding-my-device-phone-macos-x#answer-7136003)
 
 
 
