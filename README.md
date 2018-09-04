@@ -43,7 +43,9 @@ A collection of links and references for all things React Native.
     1. `echo [VENDOR_ID] >> ~/.android/adb_usb.ini`
     1. `adb kill-server ; adb devices`
   * [SO Answer](https://stackoverflow.com/questions/7135999/adb-not-finding-my-device-phone-macos-x#answer-7136003)
-
+* `INSTALL_FAILED_UPDATE_INCOMPATIBLE`
+  * Solution: 
+    * On device, uninstall the app and try again. 
 
 
 
