@@ -1,6 +1,15 @@
 # react-native-howto
 A collection of links and references for all things React Native. 
 
+### Styling
+* Responsive Text:
+  * [react-native-size-matters](https://github.com/nirsky/react-native-size-matters)
+* Style Architecture: 
+  * [Scaling React Native apps for Tablets](https://medium.com/react-native-training/scaling-react-native-apps-for-tablets-211de8399cf1)
+  * [React Native — Design Systems and Styling Strategy](https://medium.com/@mikecavaliere/react-native-design-systems-and-styling-strategy-189e4f8f1684) 
+  
+  
+
 ### Snippets
 
 * Disable yellow box warnings in simulator/emulator
