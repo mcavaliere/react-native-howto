@@ -86,6 +86,7 @@ A collection of links and references for all things React Native.
 ### UI Components
 
 * [react-native-snap-carousel](https://github.com/archriss/react-native-snap-carousel)
+* [alexbrillant/react-native-deck-swiper: tinder like react-native deck swiper](https://github.com/alexbrillant/react-native-deck-swiper)
 
 
 ### Uncommon Stuff
