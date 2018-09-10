@@ -59,6 +59,10 @@ A collection of links and references for all things React Native.
   * `adb logcat AndroidRuntime:E *:S` will tail the logs of a connected device.
 
 
+### Boilerplates
+
+* [infinitered/ignite: The hottest CLI for React Native, boilerplates, plugins, generators, and more!](https://github.com/infinitered/ignite)
+
 ### Development Tools
 
 * [expo/awesome-expo: Useful resources for creating apps with Exponent](https://github.com/expo/awesome-expo)
