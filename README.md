@@ -62,6 +62,7 @@ A collection of links and references for all things React Native.
 ### Boilerplates
 
 * [infinitered/ignite: The hottest CLI for React Native, boilerplates, plugins, generators, and more!](https://github.com/infinitered/ignite)
+* [mcnamee/react-native-starter-kit: A React Native + React (web) & Firebase (optional) boilerplate app to get you up and running very, very quickly](https://github.com/mcnamee/react-native-starter-kit)
 
 ### Development Tools
 
