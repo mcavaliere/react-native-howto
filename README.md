@@ -68,6 +68,19 @@ A collection of links and references for all things React Native.
     }
     ```
   * [GitHub Comment](https://github.com/expo/expo/issues/1166#issuecomment-372293580)
+* Standalone (device) APK builds not updating: 
+  * Make sure you got the right APK. Check the folder `./android/app/build/outputs/apk`.
+* Creating standalone builds / standalone builds not updating
+  * [SO - Build and Install unsigned apk on device without the development server?](https://stackoverflow.com/questions/35283959/build-and-install-unsigned-apk-on-device-without-the-development-server#answer-36961021)
+  * `react-native bundle --dev false --platform android --entry-file index.android.js --bundle-output ./android/app/build/intermediates/assets/debug/index.android.bundle --assets-dest ./android/app/build/intermediates/res/merged/debug`
+    1. `cd android`
+    2. Create debug build: `./gradlew assembleDebug`
+    3. Create release build: `./gradlew assembleRelease`
+    4. Generated `apk` will be located at `android/app/build/outputs/apk`
+  
+
+
+  
 
 
 ### Boilerplates
