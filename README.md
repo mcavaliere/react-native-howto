@@ -57,6 +57,17 @@ A collection of links and references for all things React Native.
     * On device, uninstall the app and try again. 
 * Debugging release build crashes
   * `adb logcat AndroidRuntime:E *:S` will tail the logs of a connected device.
+* `Too many classes in --main-dex-list, main dex capacity exceeded`
+  * In `app/build.gradle` add the below, then run and run `./gradlew assembleProdRelease`: 
+  ```
+     android {
+        dexOptions {
+            keepRuntimeAnnotatedClasses false
+        }
+
+    }
+    ```
+  * [GitHub Comment](https://github.com/expo/expo/issues/1166#issuecomment-372293580)
 
 
 ### Boilerplates
