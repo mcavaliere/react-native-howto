@@ -71,6 +71,10 @@ A collection of links and references for all things React Native.
 * Standalone (device) APK builds not updating: 
   * Make sure you got the right APK. Check the folder `./android/app/build/outputs/apk`.
 * `JNI DETECTED ERROR IN APPLICATION: fid == null` When running standalone release build: 
+  * Caused by Proguard issue
+  * Quick fix: Comment out `minifyEnabled true` in `app/build.gradle`
+  
+* Failed to complete Gradle execution. Cause: Already disposed: Module: 'MYMODULENAME'
   * Delete `.idea/modules.xml` and `.idea/modules/` if it exists. 
   * [SO Answer](https://stackoverflow.com/questions/27541838/android-studio-gradle-already-disposed-module#answer-50430517)
 * Creating standalone builds
