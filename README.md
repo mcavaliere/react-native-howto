@@ -16,6 +16,9 @@ A collection of links and references for all things React Native.
   * `console.disableYellowBox = true;`
 
 ### Gotchas and Fixes
+* Network connectivity from device over public wifi networks
+  * Set `REACT_NATIVE_PACKAGER_HOSTNAME` environment variable to network IP address.
+  * [SO Answer](https://stackoverflow.com/questions/43696813/react-native-expo-change-default-lan-ip)
 * ```DeltaPatcher.js:58 Uncaught (in promise) Error: DeltaPatcher should receive a fresh Delta when being initialized```
   * [Monkey patch: 2 RN files](https://github.com/facebook/react-native/issues/18209#issuecomment-371935230)
 * `AsyncStorage` promises not resolving, or callbacks not firing.
