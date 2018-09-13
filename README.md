@@ -145,3 +145,4 @@ A collection of links and references for all things React Native.
   * Check `http://192.168.your.ip:19000` in device browser
   * Check `http://localhost` in device browser
   * Set `REACT_NATIVE_PACKAGER_HOSTNAME` to `localhost` or ip (`REACT_NATIVE_PACKAGER_HOSTNAME=localhost yarn start`)
+  * Run `adb reverse --list` to see if ports are getting forwarded
