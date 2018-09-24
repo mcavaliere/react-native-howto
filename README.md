@@ -38,6 +38,10 @@ A collection of links and references for all things React Native.
 ```
 
 ### Android Release Gotchas
+* `The installer's package name is missing` in logcat (production release)
+  * Re-sync gradle
+  * (maybe) delete `~/.gradle/cache`
+  * [SO Answer](https://stackoverflow.com/questions/22155938/android-studio-gets-package-name-wrong-when-running-apk#answer-25602161)
 * `Could not find or load main class java.se.ee` (when using `./gradlew assembleRelease`)
   * Remove this line from your `.bash_profile`: 
 `export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'`
